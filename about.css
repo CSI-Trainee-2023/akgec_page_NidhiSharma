@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    
+}
+.horizontal{
+    align-items: center;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    z-index: 10;
+
+}
+
