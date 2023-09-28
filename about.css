@@ -2,23 +2,134 @@
     margin: 0px;
     padding : 0px;
     font-family: sans-serif;
+    box-sizing: border box;
+
 }
-header{
-    width: 100%;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    
-}
-.horizontal{
+.header {
+    display: flex;
     align-items: center;
-    height: 50px;
-    position: absolute;
-    width: 100%;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #fff;
+  }
+  
+  /* Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo a {
+    display: inline-block;
+  }
+  
+  .logo img {
+    width: 88px;
+    height: 100%;
+  }
+  
+  /* AKGEC Text */
+  .akgecText {
+    text-align: center;
+  }
+  
+  .akgecText h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .akgecText a {
+    font-size: 16px;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .akgecText a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+#about{
+    text-align: center;
+    color: black;
+    background-color: blue;
+}
+
+#para{
+    margin: 10px 10px 10px 10px;
+}
+
+nav{
+    background-color: black;
+    overflow: hidden;
+
+}
+
+nav a{
+    float : left;
+    display: block;
+    color: white;
+    text-align : center;
+    padding : 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+footer {
+    background-color: gray;
+    border-color: yellow;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
     display: flex;
     justify-content: space-between;
-    padding: 0px 15px;
-    z-index: 10;
-
-}
-
+    align-items: center;
+  }
+  
+  .footer-left {
+    width: 50%;
+  }
+  
+  .footer-right {
+    width: 50%;
+  }
+  
+  footer h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer a {
+    font-size: 16px;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
