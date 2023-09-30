@@ -3,6 +3,7 @@
     padding : 0px;
     font-family: sans-serif;
     box-sizing: border box;
+    
 
 }
 .header {
@@ -11,6 +12,8 @@
     justify-content: space-between;
     padding: 20px 0;
     background-color: #fff;
+    width: 100%;
+
   }
   
   /* Logo */
@@ -26,6 +29,7 @@
   .logo img {
     width: 88px;
     height: 100%;
+  
   }
   .logoRight{
     width: 88px;
@@ -53,13 +57,19 @@
     color: #000;
     text-decoration: underline;
   }
-  
-#about{
+  .about {
+    position: relative;
+    top: 35%;
+    left: 0%; 
+    background-color: #323232;
+    width:97%;
+    height: 10vh;
+    color: #ffc107;
+    padding: 20px;
     text-align: center;
-    color: black;
-    background-color: #112C66;
+    justify-content: center;
+    border-bottom: solid 5px #ffc107;
 }
-
 #para{
     margin: 10px 10px 10px 10px;
 }
@@ -68,15 +78,16 @@ ul{
   list-style: none;
   margin: 0;
   font-family: monospace;
-}
-ul{
-  list-style: none;
   background: black;
-
 }
+
 ul li{
   display: inline-block;
   position: relative;
+  font-size: 20px;
+  margin-right: 40px;
+  line-height: 50 px;
+  list-style: none;
 }
 
 ul li a{
@@ -107,63 +118,62 @@ ul li:hover ul.dropdown{
   display : block;
 }
 
-h3 {
+h2 {
     background-color: yellow;
 }
 h4{
     background-color: blanchedalmond;
 }
 
-footer {
-    background-color: gray;
-    border-color: yellow;
-    padding: 20px 0;
-  }
+.highlights{
+  background-color: #d5d3d3ad;
+  margin-block-start: 10vh;
+  padding: 2px;
+
+}
+.highlights h1{
+  padding: 10px;
+  margin-bottom: 5vh;
+}
+.highlights ul li{
+  list-style: none;
+  font-size: 28px;
+  margin-left: 10vw;
+  background-color: #ffc107;
   
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+}
+
+.footerContainer{
+  background-color: #212529;
+  color: white;
+  display: flex;
+  border-top: solid 5px #ffc107;
   
-  .footer-left {
-    width: 50%;
-  }
-  
-  .footer-right {
-    width: 50%;
-  }
-  
-  footer h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  footer p {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  footer ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  footer li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  footer a {
+}
+.address{
+  margin: 100px;
+
+}
+.quickLinks{
+  margin: 100px;
+  padding: 2px;
+
+}
+.shortAbout{
+  margin: 100px;
+  text-align: justify;
+  padding: 2px;
+}
+
+  .quickLinks a {
     font-size: 16px;
     color: #666;
     text-decoration: none;
   }
   
-  footer a:hover {
+  .quickLinks a:hover {
     color: #000;
     text-decoration: underline;
-  }
+  } 
 
  
