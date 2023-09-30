@@ -57,7 +57,7 @@
 #about{
     text-align: center;
     color: black;
-    background-color: blue;
+    background-color: #112C66;
 }
 
 #para{
@@ -166,20 +166,4 @@ footer {
     text-decoration: underline;
   }
 
-  .milestone{
-    background-color: #f2f2f2;
-    padding:20px;
-    border-radius: 10px;
-    margin: 20px;
-   }
-
-   .content{
-
-    margin-left: 20px;
-
-   }
-   .content ul{
-    list-style-type: disc;
-    margin-left: 20px;
-   }
-
+ 
