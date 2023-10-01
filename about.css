@@ -125,23 +125,6 @@ h4{
     background-color: blanchedalmond;
 }
 
-.highlights{
-  background-color: #d5d3d3ad;
-  margin-block-start: 10vh;
-  padding: 2px;
-
-}
-.highlights h1{
-  padding: 10px;
-  margin-bottom: 5vh;
-}
-.highlights ul li{
-  list-style: none;
-  font-size: 28px;
-  margin-left: 10vw;
-  background-color: #ffc107;
-  
-}
 
 .footerContainer{
   background-color: #212529;

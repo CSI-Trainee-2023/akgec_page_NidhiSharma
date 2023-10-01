@@ -22,31 +22,70 @@
     0% {
       opacity: 0;
     }
-    33.33% {
+    25% {
       opacity: 1;
     }
-    66.66% {
+    50% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
+
+  @keyframes fadeInOut1 {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
       opacity: 1;
     }
     100% {
+        opacity: 0;
+    }
+  }
+
+  @keyframes fadeInOut1 {
+    0% {
       opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+        opacity: 1;
     }
   }
 
   .animated-image:nth-child(1) {
-    animation: fadeInOut 12s infinite;
-    animation-duration: 6s;
-    animation-delay: 12s;
+    animation: fadeInOut 10s infinite;
+     /* animation-duration: 6s;  */
+     animation-delay: 0s; 
   }
 
   .animated-image:nth-child(2) {
-    animation: fadeInOut 12s infinite;
-    animation-delay: 3s;
+    animation: fadeInOut 10s infinite;
+    animation-delay: 12s; 
   }
   
   .animated-image:nth-child(3) {
-    animation: fadeInOut 12s infinite;
-    animation-delay: 6s;
+    animation: fadeInOut 10s infinite;
+    animation-delay: 24s;
   }
  
   
@@ -108,7 +147,7 @@ p {
     align-items: center;
 }
 
-.card {
+.course{
     margin-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 50px;
@@ -120,30 +159,30 @@ p {
     color: black;
 }
 
-.card:hover {
+.course:hover {
     box-shadow: none;
     box-shadow: -2px -2px 10px black;
     cursor: pointer;
 }
 
-.card img {
+.course img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.card,
+.course,
 .card img {
     width: 350px;
 }
 
-.card h2 {
+.course h2 {
     font-size: 17px;
     text-align: center;
     padding: 10px 0;
     font-weight: 800;
 }
 
-.card p {
+.course p {
     font-size: 14px;
     text-align: center;
 }
@@ -159,6 +198,49 @@ p {
     padding: 10px 0;
     width: 500px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.distinguished-alumni {
+    text-align: center;
+    padding: 50px;
+}
+
+.alumni-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 300px;
+}
+
+.alumni-card img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+
+  
+
 
 @media only screen and (max-width: 1000px){
     .aboutSection p{
