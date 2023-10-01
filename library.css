@@ -1,0 +1,32 @@
+.heading{
+    text-align: center;
+    color:  red;
+}
+
+.centeredTable{
+    margin: 0 auto;
+}
+
+.library{
+    position: relative;
+    top: 35%;
+    left: 0%; 
+    background-color: #323232;
+    width:97%;
+    height: 10vh;
+    color: #ffc107;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border-bottom: solid 5px #ffc107;
+}
+
+.libraryInfo img{
+    width: 1349px;
+    height: 500px;
+}
+
+.contact{
+    text-align: center;
+    color: red;
+}
