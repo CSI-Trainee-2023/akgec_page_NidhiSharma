@@ -166,5 +166,36 @@
       color: #000;
       text-decoration: underline;
     } 
-  
+
+
+    @media only  screen and (max-width: 767px) {
+      /* CSS rules for small screens */
+      .library {
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    
+      .libraryInfo img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    @media only screen and ( max-width: 991px) {
+      /* CSS rules for medium screens */
+      .library {
+        width: 80%;
+        left: 10%;
+        transform: translateX(-10%);
+      }
+    
+      .libraryInfo img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    
+
 
