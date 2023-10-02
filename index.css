@@ -106,14 +106,14 @@
     display : block;
   }
   
-.wrapper {
+.top {
     position: relative;
     width: 1349px;
     height: 500px;
     overflow: hidden;
   }
   
-  .animated-image {
+  .animatedImage {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -211,7 +211,7 @@ h1 {
     padding: 15px 0;
     text-align: center;
     width: 100%;
-    filter: drop-shadow(2px 2px 2px rgb(58, 3, 117)));
+    filter: drop-shadow(2px 2px 2px rgb(58, 3, 117));
     color: black;
 }
 
@@ -309,12 +309,12 @@ body {
     padding: 0;
 }
 
-.distinguished-alumni {
+.distinguishedAlumni {
     text-align: center;
     padding: 50px;
 }
 
-.alumni-card {
+.alumniCard {
     display: inline-block;
     margin: 20px;
     padding: 20px;
@@ -322,7 +322,7 @@ body {
     max-width: 300px;
 }
 
-.alumni-card img {
+.alumniCard img {
     max-width: 100%;
     border-radius: 50%;
 }
@@ -361,7 +361,7 @@ p {
     .aboutSection p{
         width: 80%;
     }
-    .wrapper{
+    .top{
         margin-top: 470px;
     }
     .testimonalSection img{
@@ -374,17 +374,17 @@ p {
 
 
 @media only screen and (max-width: 460px){
-    .wrapper{
+    .top{
         margin-top: 400px;
     }
     .aboutSection p{
         font-size: 15px;
     }
-    .card{
+    .alumniCard{
         width: 70%;
         height: auto;
     }
-    .card img{
+    .alumniCard img{
         width: 100%;
     }
 }
