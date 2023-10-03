@@ -125,7 +125,7 @@ ul li:hover ul.dropdown {
     display: flex;
     background-color: rgba(128, 128, 128, 0.283);
     justify-content: center;
-    border-bottom: 5PX SOLID orange;
+    border-bottom: 5PX solid orange;
 }
 
 .veCell {

@@ -261,6 +261,7 @@ p {
     box-shadow: 2px 2px 10px black;
     transition: 0.3s ease-in-out;
     color: black;
+    overflow: hidden;
 }
 
 .course:hover {
